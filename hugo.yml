@@ -1,6 +1,6 @@
 #baseURL: https://yuanhes.com/
 languageCode: en-us
-title: Yuanhe's Blog 
+title: "Franz's Homepage" 
 theme: PaperMod
 pagination:
   pagerSize: 10 # number of posts showing on homepage
@@ -23,6 +23,22 @@ outputs:
     - JSON # necessary for search
 
 params:
+  profileMode:
+    enabled: true
+    title: "Franz's Homepage" # optional default will be site title
+    subtitle: ""
+    imageUrl: "/apple-touch-icon.png" # optional
+    imageTitle: "" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: About
+        url: "/about"
+  author:
+    name: "Franz Song"
+    email: "justsyh@gmail.com"
   env: production
   ShowReadingTime: true
   ShowWordCount: true
@@ -56,15 +72,17 @@ params:
     apple_touch_icon: "/apple-touch-icon.png"
     safari_pinned_tab: "/safari-pinned-tab.svg"
   homeInfoParams:
-    Title: Welcome to my Bolg!
+    Title: Welcome to my Homepage!
     Content: Here should be a short intro ... 
   socialIcons: # optional
     - name: "GitHub"
       url: "https://github.com/yuanhes"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/yuanhe-song"
     - name: "Email"
       url: "mailto:justsyh@gmail.com"
   label:
-    text: "Yuanhe's Blog"
+    text: "Home"
     icon: /apple-touch-icon.png
     iconHeight: 35
 

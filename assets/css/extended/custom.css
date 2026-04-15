@@ -1,0 +1,10 @@
+.breadcrumbs svg {
+  width: 0.9em;
+  height: 0.9em;
+  min-width: 0.9em;
+  min-height: 0.9em;
+  display: inline-block;
+  vertical-align: -0.12em;
+  margin: 0 0.35em;
+  flex-shrink: 0;
+}
