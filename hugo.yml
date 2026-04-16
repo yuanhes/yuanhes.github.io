@@ -1,6 +1,6 @@
 #baseURL: https://yuanhes.com/
 languageCode: en-us
-title: "Franz's Homepage" 
+title: "Yuanhe's Homepage" 
 theme: PaperMod
 pagination:
   pagerSize: 10 # number of posts showing on homepage
@@ -25,7 +25,7 @@ outputs:
 params:
   profileMode:
     enabled: true
-    title: "Franz's Homepage" # optional default will be site title
+    title: "Yuanhe's Homepage" # optional default will be site title
     subtitle: ""
     imageUrl: "/apple-touch-icon.png" # optional
     imageTitle: "" # optional
@@ -36,6 +36,10 @@ params:
         url: "/posts"
       - name: About
         url: "/about"
+      - name: Projects
+        url: "/projects"
+      - name: Links
+        url: "/links"
   author:
     name: "Franz Song"
     email: "justsyh@gmail.com"
@@ -79,6 +83,8 @@ params:
       url: "https://github.com/yuanhes"
     - name: "Linkedin"
       url: "https://www.linkedin.com/in/yuanhe-song"
+    - name: "GoogleScholar"
+      url: "https://scholar.google.com/citations?hl=en&user=hfmkBOEAAAAJ"
     - name: "Email"
       url: "mailto:justsyh@gmail.com"
   label:

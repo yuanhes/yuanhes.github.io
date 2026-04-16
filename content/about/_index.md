@@ -3,7 +3,7 @@ title: "About Me"
 date: 2026-04-15T13:31:38+02:00
 ---
 
-Hi, I’m Franz (Yuanhe Song). I currently live in Germany and write here about reading, films, language learning, everyday life, and the things that stay with me. I come from a background in physics and have also worked in data analysis and engineering.
+Hi, I’m *Yuanhe Song*, or you can just call me *Franz*. I currently live in Germany and write here about reading, films, language learning, everyday life, and the things that stay with me. I come from a background in physics and have also worked in data analysis and engineering.
 
 ## A Brief Timeline
 
@@ -46,6 +46,12 @@ Completed my B.Sc. in Physics.
 	- Cantonese (beginner)
 	- Japanese (beginner)
 - When time allows, I also want to learn French and Spanish.
+### Board Game:
+- I had some experience with board games before, but after coming to Germany, I became much more interested in them. Many of the friends I have met here are board game fans, and I also feel that board game culture is more widespread here.
+- Some board games I currently own: [Wizard](https://boardgamegeek.com/boardgame/1465/wizard), [Punktesalat (Point Salad)](https://boardgamegeek.com/boardgame/274960/point-salad), [Harmonies](https://boardgamegeek.com/boardgame/414317/harmonies), [Sky Team](https://boardgamegeek.com/boardgame/373106/sky-team), [Art Gallery](https://boardgamegeek.com/boardgame/369395/art-gallery), [Power Grid](https://boardgamegeek.com/boardgame/2651/power-grid), [Flip 7](https://boardgamegeek.com/boardgame/420087/flip-7), [Ticket To Ride: Berlin](https://boardgamegeek.com/boardgame/388036/ticket-to-ride-berlin)
+### Performance Art
+- I was involved in [Cement Park - 水泥公园](https://cementpark.wixsite.com/cementpark) as an artist and member of the organizing team during 2021--2023.
+- CEMENT PARK is a live art project initiated by Lyu Desheng(LDS) and Hu Jialiang in Shanghai 2017. Its main activities include weekly performance art live houses ([a recent example](https://mp.weixin.qq.com/s/qaiRoIW6Jgr0yNw9D-qbog)) and annual live art festivals.
 ### **Scientific & Technical**:
 - Physics-related topics, especially new phenomena and effects connected with quantum mechanics and their potential applications.
 - Data-related topics: data infrastructure, data analysis, machine learning, Data4Good
