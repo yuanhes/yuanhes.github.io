@@ -40,9 +40,7 @@ params:
         url: "/projects"
       - name: Links
         url: "/links"
-  author:
-    name: "Franz Song"
-    email: "justsyh@gmail.com"
+  author: "Franz Song"
   env: production
   ShowReadingTime: true
   ShowWordCount: true
