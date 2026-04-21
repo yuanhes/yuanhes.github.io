@@ -126,14 +126,14 @@ menus:
       name: Archives
       url: /archives/
       weight: 20
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 25
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 25
+    #- identifier: categories
+    #  name: Categories
+    #  url: /categories/
+    #  weight: 25
+    #- identifier: tags
+    #  name: Tags
+    #  url: /tags/
+    #  weight: 25
     - identifier: about
       name: About
       pageRef: /about

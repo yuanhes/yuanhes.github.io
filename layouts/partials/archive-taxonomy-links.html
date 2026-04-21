@@ -1,0 +1,7 @@
+{{ if eq .Layout "archives" }}
+<div class="archive-taxonomy-links">
+  <a href='{{ "categories/" | relLangURL }}'>Categories</a>
+  <span class="sep"> · </span>
+  <a href='{{ "tags/" | relLangURL }}'>Tags</a>
+</div>
+{{ end }}

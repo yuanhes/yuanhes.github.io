@@ -1,0 +1,11 @@
+{{/* ========================================
+   Global page background
+   Adds a class to all pages, and an extra class
+   only to single pages under /posts/
+======================================== */}}
+<script>
+  document.documentElement.classList.add("page-bg");
+  {{ if and .IsPage (eq .Section "posts") }}
+  document.documentElement.classList.add("posts-single-bg");
+  {{ end }}
+</script>

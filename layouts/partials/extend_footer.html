@@ -1,0 +1,87 @@
+<!-- ========================================
+     Terms tags and categories
+     Assigns a stable per-tag accent color
+     using the tag name only, with separate
+     palettes for light and dark mode
+======================================== -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const paletteLight = [
+    "#2f6fed",
+    "#2ea043",
+    "#d97706",
+    "#a855f7",
+    "#dc267f",
+    "#0891b2",
+    "#e85d04",
+    "#7c3aed",
+    "#c2410c",
+    "#0f766e",
+    "#2563eb",
+    "#b45309",
+    "#9333ea",
+    "#be185d",
+    "#0284c7",
+    "#4f46e5"
+  ];
+
+  const paletteDark = [
+    "#8fb4ff",
+    "#7bd88f",
+    "#f2b266",
+    "#c8a2ff",
+    "#f08bb4",
+    "#67c6df",
+    "#ff9e64",
+    "#b39dfb",
+    "#f59f73",
+    "#5ec2b7",
+    "#7aa2ff",
+    "#d4a15a",
+    "#c084fc",
+    "#f472b6",
+    "#7dd3fc",
+    "#9aa5ff"
+  ];
+
+  function hashString(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) {
+      h = (h * 31 + str.charCodeAt(i)) >>> 0;
+    }
+    return h;
+  }
+
+  function applyTagColors() {
+    const isDark = document.documentElement.dataset.theme === "dark";
+    const palette = isDark ? paletteDark : paletteLight;
+
+    document.querySelectorAll(".terms-tags li a").forEach((el) => {
+      let tagName = "";
+
+      for (const node of el.childNodes) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          tagName += node.textContent;
+        }
+      }
+
+      tagName = tagName.trim();
+      if (!tagName) return;
+
+      const color = palette[hashString(tagName) % palette.length];
+      el.style.setProperty("--tag-accent", color);
+    });
+  }
+
+  applyTagColors();
+
+  const observer = new MutationObserver(() => {
+    applyTagColors();
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"]
+  });
+});
+</script>
